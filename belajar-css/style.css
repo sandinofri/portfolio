@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color:rgb(74, 186, 154);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.container h1,
+.home .salam h1,
+.about h1{
+    color: var(--color);
+}
+
+.navigasi{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navigasi a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    
+}
+
+.home{
+    width: 100%;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.salam, .gambar{
+    border: 1px solid;
+}
+
+.salam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about h1{
+    text-align: center;
+    border:1px solid;
+    font-size: 2rem;
+}
+
